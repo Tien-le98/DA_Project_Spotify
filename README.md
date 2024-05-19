@@ -19,8 +19,8 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 
 <p align="center" width="100%">
     <img width="25%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability">
-    <img width="25%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo">
-    <img width="25%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness">
+    <img width="23%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo">
+    <img width="23%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness">
  <img width="25%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/energy_plot">
 </p>
 
