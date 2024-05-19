@@ -21,8 +21,11 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness" align="right" height="300" width="300" ></a>
 
 + To the predictor **energy**, the average value track’s energy varies between different genres. The figure for r&b is the lowest while the figure for edm is the highest. Track’s energy in ascending order is r&b, rap, pop, latin, rock and edm.
-+ The average value of **track’s popularity** varies between different genres. The figure for edm is the lowest while the figure for pop is the highest. Track’s popularity in ascending order is edm, r&b, rap/rock, latin and pop. The average value of rap track’s popularity is equal to the figure for rock tracks.
-+ The average value of **track’s popularity** fluctuates significantly, meaning that there is no clear trend in track’s popularity over time.
+
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity" align="right" height="300" width="300" ></a>
++ The average value of **track’s popularity** varies between different genres. The figure for edm is the lowest while the figure for pop is the highest. Track’s popularity in ascending order is edm, r&b, rap/rock, latin and pop. The average value of rap track’s popularity is equal to the figure for rock tracks. In addition, the average value of **track’s popularity** fluctuates significantly, meaning that there is no clear trend in track’s popularity over time.
+
+
 + After considering three different models which are a linear discriminant analysis model, a K-nearest neighbours model and a random forest model, the **random forest model** with mtry equals to 11 (the number of predictors that will be randomly sampled at each split is 11), 100 trees (the number of trees contained in the ensemble is 100) and min_n equals to 21 (the minimum number of data points in a node that are required for the node to be split further is 21) seems to be the best model.
 
 ## Random Forest performance
