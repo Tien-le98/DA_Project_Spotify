@@ -15,6 +15,7 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 + To the predictor **danceability**, the average value track’s danceability varies between different genres. The figure for rock is the lowest while the figure for rap is the highest. Track’s danceability in ascending order is rock, pop, edm, r&b, latin and rap.
 + In terms of the predictor **tempo**, the average value track’s tempo varies between different genres. The figure for r&b is the lowest while the figure for edm is the highest. Track’s tempo in ascending order is r&b, latin, pop, rock, rap and edm.
 + The average value of **track’s speechiness** varies between different genres. The figure for rock is the lowest while the figure for rap is the highest. Track’s speechiness in ascending order is rock, pop, edm, latin, r&b and rap.
+
 <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability" align="left" height="300" width="300" ></a>
 <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo" align="center" height="300" width="300" ></a>
 <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness" align="right" height="300" width="300" ></a>
