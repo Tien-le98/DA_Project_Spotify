@@ -24,7 +24,7 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
     <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/energy_plot">
 </p>
 
-<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity" align="right" height="250" width="350" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity" align="right" width="24%" ></a>
 + The average value of **track’s popularity** varies between different genres. The figure for edm is the lowest while the figure for pop is the highest. Track’s popularity in ascending order is edm, r&b, rap/rock, latin and pop. The average value of rap track’s popularity is equal to the figure for rock tracks. In addition, the average value of **track’s popularity** fluctuates significantly, meaning that there is no clear trend in track’s popularity over time.
 
 
