@@ -13,9 +13,12 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 + In terms of the predictor **year_released**, it has 61 unique years ranging from 1957 to 2020. Around 73.5% tracks released from 1990 backward are mainly rock tracks. Therefore, if a track released from 1990 backward, it can be more likely to be a rock track. To tracks released between 1991 and 2000, around 36.2% tracks are r&b, about 28.7% tracks are rock, and about 22.2% tracks are rap. To tracks released after 2000, they have all six types of genres, but the most popular genre is edm and the least popular genre is rock. In addition, about 99.6% of edm tracks were released after 2000.
 
 + To the predictor **danceability**, the average value track’s danceability varies between different genres. The figure for rock is the lowest while the figure for rap is the highest. Track’s danceability in ascending order is rock, pop, edm, r&b, latin and rap.
-<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability" align="right" height="300" width="300" ></a>
 + In terms of the predictor **tempo**, the average value track’s tempo varies between different genres. The figure for r&b is the lowest while the figure for edm is the highest. Track’s tempo in ascending order is r&b, latin, pop, rock, rap and edm.
 + The average value of **track’s speechiness** varies between different genres. The figure for rock is the lowest while the figure for rap is the highest. Track’s speechiness in ascending order is rock, pop, edm, latin, r&b and rap.
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability" align="left" height="300" width="300" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo" align="center" height="300" width="300" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness" align="right" height="300" width="300" ></a>
+
 + To the predictor **energy**, the average value track’s energy varies between different genres. The figure for r&b is the lowest while the figure for edm is the highest. Track’s energy in ascending order is r&b, rap, pop, latin, rock and edm.
 + The average value of **track’s popularity** varies between different genres. The figure for edm is the lowest while the figure for pop is the highest. Track’s popularity in ascending order is edm, r&b, rap/rock, latin and pop. The average value of rap track’s popularity is equal to the figure for rock tracks.
 + The average value of **track’s popularity** fluctuates significantly, meaning that there is no clear trend in track’s popularity over time.
