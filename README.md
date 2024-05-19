@@ -1,4 +1,5 @@
 # Track's genres prediction with Spotify dataset
+_Author: Clara Le_
 _Date: 26/4/2023_
 
 Spotify is an audio streaming and media services provider with over 365 million monthly active users, and 165 million paying subscribers. This analysis is conducted according to Spotify’s demand to better recommend or advertise songs to customers and more effective update compilation playlists through predicting what genre a song belongs to. The data set used in this analysis contains 6000 observations with 1000 observations for each track’s genre, 1 response variable (“track_genre”) and 43 predictors. 
