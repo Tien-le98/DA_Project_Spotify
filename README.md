@@ -21,13 +21,19 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
     <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability">
     <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo">
     <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness">
- <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/energy_plot">
+    <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/energy_plot">
 </p>
 
+<p align="right" width="100%">
+    <img width="24%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity">
+</p>
 + The average value of **track’s popularity** varies between different genres. The figure for edm is the lowest while the figure for pop is the highest. Track’s popularity in ascending order is edm, r&b, rap/rock, latin and pop. The average value of rap track’s popularity is equal to the figure for rock tracks. In addition, the average value of **track’s popularity** fluctuates significantly, meaning that there is no clear trend in track’s popularity over time.
 
 
 + After considering three different models which are a linear discriminant analysis model, a K-nearest neighbours model and a random forest model, the **random forest model** with mtry equals to 11 (the number of predictors that will be randomly sampled at each split is 11), 100 trees (the number of trees contained in the ensemble is 100) and min_n equals to 21 (the minimum number of data points in a node that are required for the node to be split further is 21) seems to be the best model.
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
 
 ## Random Forest performance
 The overall model’s performance on the processed testing set is showed through metrics such as average sensitivity (0.56), average specificity (0.912), and average AUC (0.852). This model has high average value of AUC, which is area under the ROC curve, so this model can be a good discrimination when considering AUC value. Additionally, the value of specificity is high, but the value of sensitivity is pretty low. Each metrics of each genre as shown below:
