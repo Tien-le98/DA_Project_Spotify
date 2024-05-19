@@ -34,11 +34,11 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 
 <div align= "center">
     <table>
-    | ML model | Accuracy    | AUC    |
-    | :---:   | :---: | :---: |
-    | Linear Discriminant Analysis (LDA) | 0.505   | 0.817   |
-    | K-nearest Neighbours (KNN) | 0.519   | 0.824   |
-    | **Random Forest** | **0.561**   | **0.824**   |
+        | ML model | Accuracy    | AUC    |
+        | :---:   | :---: | :---: |
+        | Linear Discriminant Analysis (LDA) | 0.505   | 0.817   |
+        | K-nearest Neighbours (KNN) | 0.519   | 0.824   |
+        | **Random Forest** | **0.561**   | **0.824**   |
     </table>table>
 </div>
 
