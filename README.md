@@ -16,13 +16,13 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 + In terms of the predictor **tempo**, the average value track’s tempo varies between different genres. The figure for r&b is the lowest while the figure for edm is the highest. Track’s tempo in ascending order is r&b, latin, pop, rock, rap and edm.
 + The average value of **track’s speechiness** varies between different genres. The figure for rock is the lowest while the figure for rap is the highest. Track’s speechiness in ascending order is rock, pop, edm, latin, r&b and rap.
 
-<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability" align="left" height="300" width="300" ></a>
-<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo" align="center" height="300" width="300" ></a>
-<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness" align="right" height="300" width="300" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/danceability" align="left" height="300" width="250" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/tempo" align="center" height="300" width="250" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/speechiness" align="right" height="300" width="250" ></a>
 
 + To the predictor **energy**, the average value track’s energy varies between different genres. The figure for r&b is the lowest while the figure for edm is the highest. Track’s energy in ascending order is r&b, rap, pop, latin, rock and edm.
 
-<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity" align="right" height="300" width="300" ></a>
+<a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity" align="right" height="300" width="250" ></a>
 + The average value of **track’s popularity** varies between different genres. The figure for edm is the lowest while the figure for pop is the highest. Track’s popularity in ascending order is edm, r&b, rap/rock, latin and pop. The average value of rap track’s popularity is equal to the figure for rock tracks. In addition, the average value of **track’s popularity** fluctuates significantly, meaning that there is no clear trend in track’s popularity over time.
 
 
