@@ -46,4 +46,4 @@ The overall model’s performance on the processed testing set is showed through
 
  <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/ROC_curves" align="center" height="500" width="700" ></a>
  
-> To increase this model’s performance, in future analysis, the data set should include more features which can contribute to predict track’s genres and create better way to manage playlist’s genres. Because playlist’s genres are used to identify track’s genres, if playlist’s genres can be set and modified by users, playlist’s genres can be incorrect, which can lead to wrong track’s genres.
+To increase this model’s performance, in future analysis, the data set should include more features which can contribute to predict track’s genres and create better way to manage playlist’s genres. Because playlist’s genres are used to identify track’s genres, if playlist’s genres can be set and modified by users, playlist’s genres can be incorrect, which can lead to wrong track’s genres.
