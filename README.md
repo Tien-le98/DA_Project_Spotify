@@ -1,4 +1,4 @@
-# Track's genres prediction with Spotify dataset
+# Track's Genres Prediction with Spotify Dataset
 _Author: Clara Le_
 
 _Date: 26/4/2023_
