@@ -32,12 +32,14 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 
 + After considering three different models which are a linear discriminant analysis model, a K-nearest neighbours model and a random forest model, the **random forest model** with mtry equals to 11 (the number of predictors that will be randomly sampled at each split is 11), 100 trees (the number of trees contained in the ensemble is 100) and min_n equals to 21 (the minimum number of data points in a node that are required for the node to be split further is 21) seems to be the best model.
 
-<div style="display: flex; justify-content: center;">
+<div align= "center">
+    <table>
     | ML model | Accuracy    | AUC    |
     | :---:   | :---: | :---: |
     | Linear Discriminant Analysis (LDA) | 0.505   | 0.817   |
     | K-nearest Neighbours (KNN) | 0.519   | 0.824   |
     | **Random Forest** | **0.561**   | **0.824**   |
+    </table>table>
 </div>
 
 ## Random Forest performance
