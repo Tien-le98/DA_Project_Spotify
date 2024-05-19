@@ -40,7 +40,7 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
     | K-nearest Neighbours (KNN) | 0.519   | 0.824   |
     | **Random Forest** | **0.561**   | **0.824**   |
 
-<\center>
+</center>
 
 ## Random Forest performance
 The overall model’s performance on the processed testing set is showed through metrics such as average sensitivity (0.56), average specificity (0.912), and average AUC (0.852). This model has high average value of AUC, which is area under the ROC curve, so this model can be a good discrimination when considering AUC value. Additionally, the value of specificity is high, but the value of sensitivity is pretty low. Each metrics of each genre as shown below:
