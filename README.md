@@ -4,7 +4,12 @@ _Author: Clara Le_
 _Date: 26/4/2023_
 
 ---
+
+## INTRODUCTION
+
 Spotify is an audio streaming and media services provider with over 365 million monthly active users, and 165 million paying subscribers. This analysis is conducted according to Spotify’s demand to better recommend or advertise songs to customers and more effective update compilation playlists through predicting what genre a song belongs to. The data set used in this analysis contains 6000 observations with 1000 observations for each track’s genre, 1 response variable (“track_genre”) and 43 predictors. 
+
+## EXPLORATORY DATA ANALYSIS (EDA)
 
 After performing data cleaning and preprocessing, EDA, applying machine learning models with [code](https://github.com/Tien-le98/DA_Project_Spotify/blob/main/DA_code.R), according to its output [output](https://github.com/Tien-le98/DA_Project_Spotify/blob/main/DA_output.pdf), there are several main findings as belows:
 + Among 43 predictors used in predicting track’s genres, the five most important predictors are **track’s released year** (“year_released” variable), **track’s danceability** (“danceability” variable), **track’s tempo** (“tempo” variable), **track’s speechiness** (“speechiness” variable), and **track’s energy** (“energy” variable). Besides these predictors, other track’s features such as liveness, mode and key have less importance in predicting genres. Additionally, artist Ballin Entertainment, Queen, 2Pac, Gloria Estefan, Don Omar, Kiss, Janelle Monae and Logic also contribute to genre predictions, but their importance is not significant.
@@ -29,7 +34,9 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
     <img width="30%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/popularity">
 </p>
 
-+ After considering three different models which are a linear discriminant analysis model, a K-nearest neighbours model and a random forest model, the **random forest model** with mtry equals to 11 (the number of predictors that will be randomly sampled at each split is 11), 100 trees (the number of trees contained in the ensemble is 100) and min_n equals to 21 (the minimum number of data points in a node that are required for the node to be split further is 21) seems to be the best model.
+## APPLIED MACHINE LEARNING MODELS
+
+After considering three different models which are a linear discriminant analysis model, a K-nearest neighbours model and a random forest model, the **random forest model** with mtry equals to 11 (the number of predictors that will be randomly sampled at each split is 11), 100 trees (the number of trees contained in the ensemble is 100) and min_n equals to 21 (the minimum number of data points in a node that are required for the node to be split further is 21) seems to be the best model.
 
 | ML model | Accuracy    | AUC    |
 | :---:   | :---: | :---: |
@@ -37,7 +44,8 @@ After performing data cleaning and preprocessing, EDA, applying machine learning
 | K-nearest Neighbours (KNN) | 0.519   | 0.824   |
 | **Random Forest** | **0.561**   | **0.824**   |
 
-### Random Forest performance
+## Random Forest performance
+
 The overall model’s performance on the processed testing set is showed through metrics such as average sensitivity (0.56), average specificity (0.912), and average AUC (0.852). This model has high average value of AUC, which is area under the ROC curve, so this model can be a good discrimination when considering AUC value. Additionally, the value of specificity is high, but the value of sensitivity is pretty low. Each metrics of each genre as shown below:
 + To **sensitivity**, the model has sensitivity value of 0.692 in predicting edm tracks, which means that if a track is edm, the model correctly predicting it as responding “edm” 69.2% of the time. Accordingly, the figure for latin tracks is 42.2% of the time, pop tracks is 45.7% of the time, r&b tracks is 42.9% of the time, rap tracks is 58.3% of the time and rock tracks is 77.7% of the time. So, the model has the highest probability of correctly predicting rock tracks and the lowest probability of correctly predicting latin tracks.
 + To **specificity**, the model has specificity value of 0.927 in predicting non-edm tracks, which means that if a track is not edm, the model correctly predicting it as responding different from “edm” is 92.7% of the time. Accordingly, the figure for latin tracks is 91.5% of the time, pop tracks is 87.5% of the time, r&b tracks is 91.9% of the time, rap tracks is 90.1% of the time, and rock tracks is 93.5% of the time. So, the model has high specificity values in all kinds of genres, it has the highest probability of correctly predicting non-rock tracks and the lowest probability of correctly predicting non-pop tracks.
