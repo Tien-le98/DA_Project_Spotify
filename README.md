@@ -11,7 +11,7 @@ Spotify is an audio streaming and media services provider with over 365 million 
 
 ## EXPLORATORY DATA ANALYSIS (EDA)
 
-After performing data cleaning and preprocessing, EDA, applying machine learning models with [code](https://github.com/Tien-le98/DA_Project_Spotify/blob/main/DA_code.R), according to its output [output](https://github.com/Tien-le98/DA_Project_Spotify/blob/main/DA_output.pdf), there are several main findings as belows:
+After performing data cleaning and preprocessing, EDA, applying machine learning models with [code](https://github.com/Tien-le98/DA_Project_Spotify/blob/main/DA_code.R), according to its [output](https://github.com/Tien-le98/DA_Project_Spotify/blob/main/DA_output.pdf), there are several main findings as belows:
 + Among 43 predictors used in predicting track’s genres, the five most important predictors are **track’s released year** (“year_released” variable), **track’s danceability** (“danceability” variable), **track’s tempo** (“tempo” variable), **track’s speechiness** (“speechiness” variable), and **track’s energy** (“energy” variable). Besides these predictors, other track’s features such as liveness, mode and key have less importance in predicting genres. Additionally, artist Ballin Entertainment, Queen, 2Pac, Gloria Estefan, Don Omar, Kiss, Janelle Monae and Logic also contribute to genre predictions, but their importance is not significant.
 <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/feature_importance" align="center" height="500" width="700" ></a>
 <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/year_released" align="right" height="250" width="350" ></a>
@@ -53,4 +53,4 @@ The overall model’s performance on the processed testing set is showed through
 
  <a href="url"><img src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/ROC_curves" align="center" height="500" width="700" ></a>
  
-Hence, to increase this model’s performance, in future analysis, the data set should include more features which can contribute to predict track’s genres and create better way to manage playlist’s genres. Since playlist’s genres are used to identify track’s genres, if playlist’s genres can be set and modified by users, playlist’s genres can be incorrect, which can lead to wrong track’s genres.
+Hence, to increase this model’s performance, in future analysis, the data set should include more features which can contribute to predict track’s genres. Since playlist’s genres are used to identify track’s genres, if playlist’s genres can be set and modified by users, playlist’s genres can be incorrect, which can lead to wrong track’s genres.
