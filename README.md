@@ -1,5 +1,6 @@
 # Track's Genres Prediction with Spotify Dataset
-_Author: Clara Le_
+
+_Author: Pham Thuy Tien (Clara) Le_
 
 _Date: 26/4/2023_
 
